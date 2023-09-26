@@ -1,0 +1,75 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "nurse chad",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "NumberIntent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{number}",
+                        "number saved as {number}",
+                        "I am {number} years old",
+                        "my age is {number}",
+                        "{number} years"
+                    ]
+                },
+                {
+                    "name": "StrokeRiskIntent",
+                    "slots": [],
+                    "samples": [
+                        "measure stroke risk",
+                        "measure stroke health",
+                        "measure stroke",
+                        "stroke risk",
+                        "stroke health",
+                        "stroke"
+                    ]
+                },
+                {
+                    "name": "HypertensionRiskIntent",
+                    "slots": [],
+                    "samples": [
+                        "measure hypertension",
+                        "measure hypertension health",
+                        "hypertension health",
+                        "measure hyper tension",
+                        "hyper tension",
+                        "hyper tension health",
+                        "hyper tension risk"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
